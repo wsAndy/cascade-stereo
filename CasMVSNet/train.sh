@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-MVS_TRAINING="./data/DTU/mvs_training/dtu/"
+MVS_TRAINING="/media/zzy/VRU/zzy/mvsnet/training_data/dtu_training/"
 
 LOG_DIR=$2
 if [ ! -d $LOG_DIR ]; then

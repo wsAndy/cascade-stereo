@@ -11,6 +11,9 @@ from models import *
 from utils import *
 import torch.distributed as dist
 
+
+os.environ["CUDA_VISIBLE_DEVICES"]="7"
+
 cudnn.benchmark = True
 
 parser = argparse.ArgumentParser(description='A PyTorch Implementation of Cascade Cost Volume MVSNet')

@@ -18,6 +18,8 @@ from multiprocessing import Pool
 from functools import partial
 import signal
 
+
+os.environ["CUDA_VISIBLE_DEVICES"]="7"
 cudnn.benchmark = True
 
 parser = argparse.ArgumentParser(description='Predict depth, filter, and fuse')
